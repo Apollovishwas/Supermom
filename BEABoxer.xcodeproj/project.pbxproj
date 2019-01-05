@@ -7,39 +7,239 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C53500CF2E46712E8A693DB /* Pods_BEABoxer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EB72BFF67DDB93A597E889 /* Pods_BEABoxer.framework */; };
+		7E08149F219E737300468CBD /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7E08149E219E737300468CBD /* Intents.intentdefinition */; };
+		7E0814AB219EB84B00468CBD /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0814AA219EB84B00468CBD /* IntentHandler.swift */; };
+		7E0814B3219EB84B00468CBD /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0814B2219EB84B00468CBD /* IntentsUI.framework */; };
+		7E0814B6219EB84B00468CBD /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0814B5219EB84B00468CBD /* IntentViewController.swift */; };
+		7E0814B9219EB84B00468CBD /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0814B7219EB84B00468CBD /* MainInterface.storyboard */; };
+		7E0814BD219EB84B00468CBD /* AddFoodIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7E0814B1219EB84B00468CBD /* AddFoodIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E0814C0219EB84B00468CBD /* AddFoodIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7E0814A8219EB84B00468CBD /* AddFoodIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E0814C8219EB8C600468CBD /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7E08149E219E737300468CBD /* Intents.intentdefinition */; };
+		7E1AAB502199F5EF00F9DD03 /* AddFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1AAB4F2199F5EF00F9DD03 /* AddFoodViewController.swift */; };
+		7E1AAB522199F64C00F9DD03 /* HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1AAB512199F64B00F9DD03 /* HealthViewController.swift */; };
+		7E1AAB55219C079200F9DD03 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1AAB54219C079200F9DD03 /* HealthKit.framework */; };
+		7E2817F821A1904400BD80BC /* babyFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB9D2B219DFDD20069B6DA /* babyFood.swift */; };
+		7E38015521A7226B0099F9B5 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1AAB54219C079200F9DD03 /* HealthKit.framework */; };
+		7E3AB1E121A042B200C725C9 /* AddFoodIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AB1DC219FDF8800C725C9 /* AddFoodIntentHandler.swift */; };
+		7E67ADF621A0854200EC9D72 /* AddFoodIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AB1DC219FDF8800C725C9 /* AddFoodIntentHandler.swift */; };
+		7E67ADF721A0866700EC9D72 /* AddFoodDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8DBE6321A04BA400FEC04A /* AddFoodDataManager.swift */; };
+		7E8DBE6421A04BA400FEC04A /* AddFoodDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8DBE6321A04BA400FEC04A /* AddFoodDataManager.swift */; };
 		7E9610702188BA9A004D5FD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E96106F2188BA9A004D5FD9 /* AppDelegate.swift */; };
 		7E9610722188BA9A004D5FD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9610712188BA9A004D5FD9 /* ViewController.swift */; };
-		7E9610752188BA9A004D5FD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E9610732188BA9A004D5FD9 /* Main.storyboard */; };
 		7E9610772188BA9D004D5FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E9610762188BA9D004D5FD9 /* Assets.xcassets */; };
-		7E96107A2188BA9D004D5FD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E9610782188BA9D004D5FD9 /* LaunchScreen.storyboard */; };
+		7ECD5933218EBD92007438D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ECD5932218EBD92007438D6 /* GoogleService-Info.plist */; };
+		7ECD5935218F494B007438D6 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECD5934218F494B007438D6 /* Feed.swift */; };
+		7ECD593A21973E14007438D6 /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECD593921973E14007438D6 /* Contents.swift */; };
+		7ECE33B421D55C1D00256F66 /* BodyWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECE33B321D55C1C00256F66 /* BodyWorkoutViewController.swift */; };
+		7EE7C34021A2E2430020733A /* confirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE7C33F21A2E2430020733A /* confirmationView.swift */; };
+		7EE7C34121A2E4C30020733A /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7E08149E219E737300468CBD /* Intents.intentdefinition */; };
+		7EF2638521D4BA5C007A4B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF2638321D4BA5C007A4B72 /* LaunchScreen.storyboard */; };
+		7EF2638621D4BA5C007A4B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF2638421D4BA5C007A4B72 /* Main.storyboard */; };
+		7EF2638D21D4BB9F007A4B72 /* River.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EF2638921D4BB9D007A4B72 /* River.mp3 */; };
+		7EF2638E21D4BB9F007A4B72 /* rural_ambience.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EF2638A21D4BB9E007A4B72 /* rural_ambience.mp3 */; };
+		7EF2638F21D4BB9F007A4B72 /* Wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EF2638B21D4BB9E007A4B72 /* Wind.mp3 */; };
+		7EF2639021D4BB9F007A4B72 /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EF2638C21D4BB9E007A4B72 /* rain.mp3 */; };
+		7EF2639221D4BC34007A4B72 /* MindFullNessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2639121D4BC34007A4B72 /* MindFullNessViewController.swift */; };
+		7EF2639521D4BC49007A4B72 /* HealthCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2639321D4BC49007A4B72 /* HealthCollectionViewCell.swift */; };
+		7EF2639621D4BC49007A4B72 /* momCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2639421D4BC49007A4B72 /* momCollectionViewCell.swift */; };
+		7EF263A921D4E300007A4B72 /* badge.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EF2639F21D4E2FD007A4B72 /* badge.png */; };
+		7EF263AA21D4E300007A4B72 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EF263A021D4E2FD007A4B72 /* heart.png */; };
+		7EF263AB21D4E300007A4B72 /* heartSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EF263A121D4E2FD007A4B72 /* heartSelected.png */; };
+		7EF263AC21D4E300007A4B72 /* clouds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EF263A221D4E2FD007A4B72 /* clouds.jpg */; };
+		7EF263AD21D4E300007A4B72 /* mindFulnessBackGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EF263A321D4E2FD007A4B72 /* mindFulnessBackGround.jpg */; };
+		7EF263AE21D4E300007A4B72 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EF263A421D4E2FE007A4B72 /* food.png */; };
+		7EF263AF21D4E300007A4B72 /* notToday.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EF263A521D4E2FE007A4B72 /* notToday.png */; };
+		7EF263B021D4E300007A4B72 /* Sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EF263A621D4E2FF007A4B72 /* Sm.png */; };
+		7EF263B121D4E300007A4B72 /* today.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EF263A721D4E2FF007A4B72 /* today.png */; };
+		7EF263B221D4E300007A4B72 /* whiteTabBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EF263A821D4E2FF007A4B72 /* whiteTabBarBackground.png */; };
+		7EFB0335218CA72C00D54DD9 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB0334218CA72C00D54DD9 /* TodayViewController.swift */; };
+		7EFB033B218CA83500D54DD9 /* TodayCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB033A218CA83500D54DD9 /* TodayCollectionView.swift */; };
+		7EFB9D2A219DFDAF0069B6DA /* HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB9D29219DFDAF0069B6DA /* HealthViewController.swift */; };
+		7EFB9D2C219DFDD20069B6DA /* babyFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB9D2B219DFDD20069B6DA /* babyFood.swift */; };
+		E199E3ADE9308F4D3F4B7551 /* Pods_BEABoxer_AddFoodIntent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73BC04A3875632782FB2011 /* Pods_BEABoxer_AddFoodIntent.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7E0814BB219EB84B00468CBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E9610642188BA9A004D5FD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E0814B0219EB84B00468CBD;
+			remoteInfo = AddFoodIntentUI;
+		};
+		7E0814BE219EB84B00468CBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E9610642188BA9A004D5FD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E0814A7219EB84B00468CBD;
+			remoteInfo = AddFoodIntent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E0814C7219EB84B00468CBD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7E0814C0219EB84B00468CBD /* AddFoodIntent.appex in Embed App Extensions */,
+				7E0814BD219EB84B00468CBD /* AddFoodIntentUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		121183AD3353979B27966887 /* Pods-BEABoxer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEABoxer.release.xcconfig"; path = "Pods/Target Support Files/Pods-BEABoxer/Pods-BEABoxer.release.xcconfig"; sourceTree = "<group>"; };
+		7E08149E219E737300468CBD /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		7E0814A8219EB84B00468CBD /* AddFoodIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AddFoodIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0814AA219EB84B00468CBD /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		7E0814AC219EB84B00468CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0814B1219EB84B00468CBD /* AddFoodIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AddFoodIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0814B2219EB84B00468CBD /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		7E0814B5219EB84B00468CBD /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		7E0814B8219EB84B00468CBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		7E0814BA219EB84B00468CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0814C9219EC0AD00468CBD /* AddFoodIntentUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AddFoodIntentUI.entitlements; sourceTree = "<group>"; };
+		7E0814CA219EC0DE00468CBD /* AddFoodIntent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AddFoodIntent.entitlements; sourceTree = "<group>"; };
+		7E1AAB4F2199F5EF00F9DD03 /* AddFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodViewController.swift; sourceTree = "<group>"; };
+		7E1AAB512199F64B00F9DD03 /* HealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HealthViewController.swift; path = "/Users/apollovishwas/Documents/***Desktop***/BEABoxer/BEABoxer/HealthViewController.swift"; sourceTree = "<absolute>"; };
+		7E1AAB53219C079200F9DD03 /* BEABoxer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BEABoxer.entitlements; sourceTree = "<group>"; };
+		7E1AAB54219C079200F9DD03 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		7E3AB1DC219FDF8800C725C9 /* AddFoodIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodIntentHandler.swift; sourceTree = "<group>"; };
+		7E3AB1E221A0446000C725C9 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3AB1E421A0446700C725C9 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E67ADF421A084F400EC9D72 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E67ADF921A086F800EC9D72 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6EB8A921A07EFB00C9CB72 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6EB8AB21A07F0900C9CB72 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6EB8AD21A07F1A00C9CB72 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6EB8AF21A0809B00C9CB72 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6EB8B121A081C600C9CB72 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8DBE6321A04BA400FEC04A /* AddFoodDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodDataManager.swift; sourceTree = "<group>"; };
 		7E96106C2188BA9A004D5FD9 /* BEABoxer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEABoxer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E96106F2188BA9A004D5FD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E9610712188BA9A004D5FD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7E9610742188BA9A004D5FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E9610762188BA9D004D5FD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7E9610792188BA9D004D5FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E96107B2188BA9D004D5FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ECD5932218EBD92007438D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7ECD5934218F494B007438D6 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		7ECD593921973E14007438D6 /* Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
+		7ECDB45721A045C100BECBB2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECE33B321D55C1C00256F66 /* BodyWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyWorkoutViewController.swift; sourceTree = "<group>"; };
+		7EE7C33F21A2E2430020733A /* confirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmationView.swift; sourceTree = "<group>"; };
+		7EF2638321D4BA5C007A4B72 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EF2638421D4BA5C007A4B72 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7EF2638921D4BB9D007A4B72 /* River.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = River.mp3; sourceTree = "<group>"; };
+		7EF2638A21D4BB9E007A4B72 /* rural_ambience.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rural_ambience.mp3; sourceTree = "<group>"; };
+		7EF2638B21D4BB9E007A4B72 /* Wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wind.mp3; sourceTree = "<group>"; };
+		7EF2638C21D4BB9E007A4B72 /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
+		7EF2639121D4BC34007A4B72 /* MindFullNessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MindFullNessViewController.swift; sourceTree = "<group>"; };
+		7EF2639321D4BC49007A4B72 /* HealthCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthCollectionViewCell.swift; sourceTree = "<group>"; };
+		7EF2639421D4BC49007A4B72 /* momCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = momCollectionViewCell.swift; sourceTree = "<group>"; };
+		7EF2639F21D4E2FD007A4B72 /* badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badge.png; sourceTree = "<group>"; };
+		7EF263A021D4E2FD007A4B72 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		7EF263A121D4E2FD007A4B72 /* heartSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartSelected.png; sourceTree = "<group>"; };
+		7EF263A221D4E2FD007A4B72 /* clouds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clouds.jpg; sourceTree = "<group>"; };
+		7EF263A321D4E2FD007A4B72 /* mindFulnessBackGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mindFulnessBackGround.jpg; sourceTree = "<group>"; };
+		7EF263A421D4E2FE007A4B72 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		7EF263A521D4E2FE007A4B72 /* notToday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notToday.png; sourceTree = "<group>"; };
+		7EF263A621D4E2FF007A4B72 /* Sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sm.png; sourceTree = "<group>"; };
+		7EF263A721D4E2FF007A4B72 /* today.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = today.png; path = "../../../Documents/***Desktop***/BEABoxer/today.png"; sourceTree = "<group>"; };
+		7EF263A821D4E2FF007A4B72 /* whiteTabBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteTabBarBackground.png; sourceTree = "<group>"; };
+		7EFB0334218CA72C00D54DD9 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		7EFB033A218CA83500D54DD9 /* TodayCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionView.swift; sourceTree = "<group>"; };
+		7EFB9D29219DFDAF0069B6DA /* HealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HealthViewController.swift; path = "/Users/apollovishwas/Documents/***Desktop***/BEABoxer/BEABoxer/HealthViewController.swift"; sourceTree = "<absolute>"; };
+		7EFB9D2B219DFDD20069B6DA /* babyFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = babyFood.swift; sourceTree = "<group>"; };
+		A25F430F706297402C818D15 /* Pods-BEABoxer-AddFoodIntent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEABoxer-AddFoodIntent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BEABoxer-AddFoodIntent/Pods-BEABoxer-AddFoodIntent.debug.xcconfig"; sourceTree = "<group>"; };
+		B0EB72BFF67DDB93A597E889 /* Pods_BEABoxer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEABoxer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54F66298B331825A64B443F /* Pods-BEABoxer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEABoxer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BEABoxer/Pods-BEABoxer.debug.xcconfig"; sourceTree = "<group>"; };
+		B73BC04A3875632782FB2011 /* Pods_BEABoxer_AddFoodIntent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEABoxer_AddFoodIntent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3105EF097CABD4E4D62E59D /* Pods-BEABoxer-AddFoodIntent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEABoxer-AddFoodIntent.release.xcconfig"; path = "Pods/Target Support Files/Pods-BEABoxer-AddFoodIntent/Pods-BEABoxer-AddFoodIntent.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7E0814A5219EB84B00468CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E199E3ADE9308F4D3F4B7551 /* Pods_BEABoxer_AddFoodIntent.framework in Frameworks */,
+				7E38015521A7226B0099F9B5 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0814AE219EB84B00468CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0814B3219EB84B00468CBD /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E9610692188BA9A004D5FD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C53500CF2E46712E8A693DB /* Pods_BEABoxer.framework in Frameworks */,
+				7E1AAB55219C079200F9DD03 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A83B541EA37AA9FB414E550 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B54F66298B331825A64B443F /* Pods-BEABoxer.debug.xcconfig */,
+				121183AD3353979B27966887 /* Pods-BEABoxer.release.xcconfig */,
+				A25F430F706297402C818D15 /* Pods-BEABoxer-AddFoodIntent.debug.xcconfig */,
+				F3105EF097CABD4E4D62E59D /* Pods-BEABoxer-AddFoodIntent.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E0814A9219EB84B00468CBD /* AddFoodIntent */ = {
+			isa = PBXGroup;
+			children = (
+				7E0814CA219EC0DE00468CBD /* AddFoodIntent.entitlements */,
+				7E0814AA219EB84B00468CBD /* IntentHandler.swift */,
+				7E0814AC219EB84B00468CBD /* Info.plist */,
+				7E3AB1DC219FDF8800C725C9 /* AddFoodIntentHandler.swift */,
+			);
+			path = AddFoodIntent;
+			sourceTree = "<group>";
+		};
+		7E0814B4219EB84B00468CBD /* AddFoodIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				7E0814C9219EC0AD00468CBD /* AddFoodIntentUI.entitlements */,
+				7E0814B5219EB84B00468CBD /* IntentViewController.swift */,
+				7E0814B7219EB84B00468CBD /* MainInterface.storyboard */,
+				7E0814BA219EB84B00468CBD /* Info.plist */,
+				7EE7C33F21A2E2430020733A /* confirmationView.swift */,
+			);
+			path = AddFoodIntentUI;
+			sourceTree = "<group>";
+		};
 		7E9610632188BA9A004D5FD9 = {
 			isa = PBXGroup;
 			children = (
+				7EF2638C21D4BB9E007A4B72 /* rain.mp3 */,
+				7EF2638921D4BB9D007A4B72 /* River.mp3 */,
+				7EF2638A21D4BB9E007A4B72 /* rural_ambience.mp3 */,
+				7EF2638B21D4BB9E007A4B72 /* Wind.mp3 */,
 				7E96106E2188BA9A004D5FD9 /* BEABoxer */,
+				7E0814A9219EB84B00468CBD /* AddFoodIntent */,
+				7E0814B4219EB84B00468CBD /* AddFoodIntentUI */,
 				7E96106D2188BA9A004D5FD9 /* Products */,
+				7ECD593821973E01007438D6 /* Model */,
+				7ECD5932218EBD92007438D6 /* GoogleService-Info.plist */,
+				6A83B541EA37AA9FB414E550 /* Pods */,
+				B1ECF51155223A1825E28235 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +247,8 @@
 			isa = PBXGroup;
 			children = (
 				7E96106C2188BA9A004D5FD9 /* BEABoxer.app */,
+				7E0814A8219EB84B00468CBD /* AddFoodIntent.appex */,
+				7E0814B1219EB84B00468CBD /* AddFoodIntentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,30 +256,123 @@
 		7E96106E2188BA9A004D5FD9 /* BEABoxer */ = {
 			isa = PBXGroup;
 			children = (
+				7ECE33B321D55C1C00256F66 /* BodyWorkoutViewController.swift */,
+				7EF2639321D4BC49007A4B72 /* HealthCollectionViewCell.swift */,
+				7EF2639421D4BC49007A4B72 /* momCollectionViewCell.swift */,
+				7E1AAB53219C079200F9DD03 /* BEABoxer.entitlements */,
+				7EFB9D29219DFDAF0069B6DA /* HealthViewController.swift */,
+				7E1AAB512199F64B00F9DD03 /* HealthViewController.swift */,
+				7EFB033A218CA83500D54DD9 /* TodayCollectionView.swift */,
 				7E96106F2188BA9A004D5FD9 /* AppDelegate.swift */,
 				7E9610712188BA9A004D5FD9 /* ViewController.swift */,
-				7E9610732188BA9A004D5FD9 /* Main.storyboard */,
+				7EFB0334218CA72C00D54DD9 /* TodayViewController.swift */,
+				7ECD5934218F494B007438D6 /* Feed.swift */,
+				7E1AAB4F2199F5EF00F9DD03 /* AddFoodViewController.swift */,
+				7EF2639121D4BC34007A4B72 /* MindFullNessViewController.swift */,
+				7EF2638321D4BA5C007A4B72 /* LaunchScreen.storyboard */,
+				7EF2638421D4BA5C007A4B72 /* Main.storyboard */,
 				7E9610762188BA9D004D5FD9 /* Assets.xcassets */,
-				7E9610782188BA9D004D5FD9 /* LaunchScreen.storyboard */,
 				7E96107B2188BA9D004D5FD9 /* Info.plist */,
+				7E08149E219E737300468CBD /* Intents.intentdefinition */,
+				7E8DBE6321A04BA400FEC04A /* AddFoodDataManager.swift */,
+				7EF2639F21D4E2FD007A4B72 /* badge.png */,
+				7EF263A221D4E2FD007A4B72 /* clouds.jpg */,
+				7EF263A421D4E2FE007A4B72 /* food.png */,
+				7EF263A021D4E2FD007A4B72 /* heart.png */,
+				7EF263A121D4E2FD007A4B72 /* heartSelected.png */,
+				7EF263A321D4E2FD007A4B72 /* mindFulnessBackGround.jpg */,
+				7EF263A521D4E2FE007A4B72 /* notToday.png */,
+				7EF263A621D4E2FF007A4B72 /* Sm.png */,
+				7EF263A721D4E2FF007A4B72 /* today.png */,
+				7EF263A821D4E2FF007A4B72 /* whiteTabBarBackground.png */,
 			);
 			path = BEABoxer;
+			sourceTree = "<group>";
+		};
+		7ECD593821973E01007438D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7EFB9D2B219DFDD20069B6DA /* babyFood.swift */,
+				7ECD593921973E14007438D6 /* Contents.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B1ECF51155223A1825E28235 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E67ADF921A086F800EC9D72 /* Alamofire.framework */,
+				7E67ADF421A084F400EC9D72 /* Alamofire.framework */,
+				7E6EB8B121A081C600C9CB72 /* Alamofire.framework */,
+				7E6EB8AF21A0809B00C9CB72 /* Alamofire.framework */,
+				7E6EB8AD21A07F1A00C9CB72 /* Alamofire.framework */,
+				7E6EB8AB21A07F0900C9CB72 /* SwiftyJSON.framework */,
+				7E6EB8A921A07EFB00C9CB72 /* Alamofire.framework */,
+				7ECDB45721A045C100BECBB2 /* Alamofire.framework */,
+				7E3AB1E421A0446700C725C9 /* SwiftyJSON.framework */,
+				7E3AB1E221A0446000C725C9 /* Alamofire.framework */,
+				7E1AAB54219C079200F9DD03 /* HealthKit.framework */,
+				B0EB72BFF67DDB93A597E889 /* Pods_BEABoxer.framework */,
+				7E0814B2219EB84B00468CBD /* IntentsUI.framework */,
+				B73BC04A3875632782FB2011 /* Pods_BEABoxer_AddFoodIntent.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E96106B2188BA9A004D5FD9 /* BEABoxer */ = {
+		7E0814A7219EB84B00468CBD /* AddFoodIntent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E96107E2188BA9D004D5FD9 /* Build configuration list for PBXNativeTarget "BEABoxer" */;
+			buildConfigurationList = 7E0814C4219EB84B00468CBD /* Build configuration list for PBXNativeTarget "AddFoodIntent" */;
 			buildPhases = (
-				7E9610682188BA9A004D5FD9 /* Sources */,
-				7E9610692188BA9A004D5FD9 /* Frameworks */,
-				7E96106A2188BA9A004D5FD9 /* Resources */,
+				074F13AE07DCF9B72B21B46F /* [CP] Check Pods Manifest.lock */,
+				7E0814A4219EB84B00468CBD /* Sources */,
+				7E0814A5219EB84B00468CBD /* Frameworks */,
+				7E0814A6219EB84B00468CBD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = AddFoodIntent;
+			productName = AddFoodIntent;
+			productReference = 7E0814A8219EB84B00468CBD /* AddFoodIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7E0814B0219EB84B00468CBD /* AddFoodIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E0814C1219EB84B00468CBD /* Build configuration list for PBXNativeTarget "AddFoodIntentUI" */;
+			buildPhases = (
+				7E0814AD219EB84B00468CBD /* Sources */,
+				7E0814AE219EB84B00468CBD /* Frameworks */,
+				7E0814AF219EB84B00468CBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddFoodIntentUI;
+			productName = AddFoodIntentUI;
+			productReference = 7E0814B1219EB84B00468CBD /* AddFoodIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7E96106B2188BA9A004D5FD9 /* BEABoxer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E96107E2188BA9D004D5FD9 /* Build configuration list for PBXNativeTarget "BEABoxer" */;
+			buildPhases = (
+				480BCFF59A037A67E8B312CC /* [CP] Check Pods Manifest.lock */,
+				7E9610682188BA9A004D5FD9 /* Sources */,
+				7E9610692188BA9A004D5FD9 /* Frameworks */,
+				7E96106A2188BA9A004D5FD9 /* Resources */,
+				1095930BB8F8C1831095A14B /* [CP] Embed Pods Frameworks */,
+				7E0814C7219EB84B00468CBD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E0814BC219EB84B00468CBD /* PBXTargetDependency */,
+				7E0814BF219EB84B00468CBD /* PBXTargetDependency */,
 			);
 			name = BEABoxer;
 			productName = BEABoxer;
@@ -94,8 +389,38 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "apollo INC";
 				TargetAttributes = {
+					7E0814A7219EB84B00468CBD = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					7E0814B0219EB84B00468CBD = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					7E96106B2188BA9A004D5FD9 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -113,55 +438,286 @@
 			projectRoot = "";
 			targets = (
 				7E96106B2188BA9A004D5FD9 /* BEABoxer */,
+				7E0814A7219EB84B00468CBD /* AddFoodIntent */,
+				7E0814B0219EB84B00468CBD /* AddFoodIntentUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7E0814A6219EB84B00468CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0814AF219EB84B00468CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0814B9219EB84B00468CBD /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E96106A2188BA9A004D5FD9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E96107A2188BA9D004D5FD9 /* LaunchScreen.storyboard in Resources */,
+				7EF263A921D4E300007A4B72 /* badge.png in Resources */,
+				7EF2639021D4BB9F007A4B72 /* rain.mp3 in Resources */,
+				7EF263AA21D4E300007A4B72 /* heart.png in Resources */,
+				7EF263AC21D4E300007A4B72 /* clouds.jpg in Resources */,
+				7EF2638521D4BA5C007A4B72 /* LaunchScreen.storyboard in Resources */,
 				7E9610772188BA9D004D5FD9 /* Assets.xcassets in Resources */,
-				7E9610752188BA9A004D5FD9 /* Main.storyboard in Resources */,
+				7EF263AD21D4E300007A4B72 /* mindFulnessBackGround.jpg in Resources */,
+				7EF2638F21D4BB9F007A4B72 /* Wind.mp3 in Resources */,
+				7EF263AF21D4E300007A4B72 /* notToday.png in Resources */,
+				7EF263B021D4E300007A4B72 /* Sm.png in Resources */,
+				7EF2638D21D4BB9F007A4B72 /* River.mp3 in Resources */,
+				7EF2638621D4BA5C007A4B72 /* Main.storyboard in Resources */,
+				7ECD5933218EBD92007438D6 /* GoogleService-Info.plist in Resources */,
+				7EF263AE21D4E300007A4B72 /* food.png in Resources */,
+				7EF263AB21D4E300007A4B72 /* heartSelected.png in Resources */,
+				7EF2638E21D4BB9F007A4B72 /* rural_ambience.mp3 in Resources */,
+				7EF263B121D4E300007A4B72 /* today.png in Resources */,
+				7EF263B221D4E300007A4B72 /* whiteTabBarBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		074F13AE07DCF9B72B21B46F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BEABoxer-AddFoodIntent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1095930BB8F8C1831095A14B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BEABoxer/Pods-BEABoxer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AnimatableReload/AnimatableReload.framework",
+				"${BUILT_PRODUCTS_DIR}/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/Colorify/Colorify.framework",
+				"${BUILT_PRODUCTS_DIR}/Comets/Comets.framework",
+				"${BUILT_PRODUCTS_DIR}/GradientKit/GradientKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RoundedCornerView/RoundedCornerView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnimatableReload.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnimatedCollectionViewLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Colorify.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Comets.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GradientKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RoundedCornerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BEABoxer/Pods-BEABoxer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		480BCFF59A037A67E8B312CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BEABoxer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		7E0814A4219EB84B00468CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2817F821A1904400BD80BC /* babyFood.swift in Sources */,
+				7E0814C8219EB8C600468CBD /* Intents.intentdefinition in Sources */,
+				7E67ADF721A0866700EC9D72 /* AddFoodDataManager.swift in Sources */,
+				7E67ADF621A0854200EC9D72 /* AddFoodIntentHandler.swift in Sources */,
+				7E0814AB219EB84B00468CBD /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0814AD219EB84B00468CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE7C34121A2E4C30020733A /* Intents.intentdefinition in Sources */,
+				7E0814B6219EB84B00468CBD /* IntentViewController.swift in Sources */,
+				7EE7C34021A2E2430020733A /* confirmationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E9610682188BA9A004D5FD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EFB033B218CA83500D54DD9 /* TodayCollectionView.swift in Sources */,
+				7EFB9D2A219DFDAF0069B6DA /* HealthViewController.swift in Sources */,
+				7E1AAB522199F64C00F9DD03 /* HealthViewController.swift in Sources */,
+				7E3AB1E121A042B200C725C9 /* AddFoodIntentHandler.swift in Sources */,
+				7E08149F219E737300468CBD /* Intents.intentdefinition in Sources */,
+				7ECD593A21973E14007438D6 /* Contents.swift in Sources */,
+				7EF2639521D4BC49007A4B72 /* HealthCollectionViewCell.swift in Sources */,
+				7ECE33B421D55C1D00256F66 /* BodyWorkoutViewController.swift in Sources */,
+				7EF2639221D4BC34007A4B72 /* MindFullNessViewController.swift in Sources */,
+				7EF2639621D4BC49007A4B72 /* momCollectionViewCell.swift in Sources */,
+				7E8DBE6421A04BA400FEC04A /* AddFoodDataManager.swift in Sources */,
+				7ECD5935218F494B007438D6 /* Feed.swift in Sources */,
+				7EFB9D2C219DFDD20069B6DA /* babyFood.swift in Sources */,
 				7E9610722188BA9A004D5FD9 /* ViewController.swift in Sources */,
 				7E9610702188BA9A004D5FD9 /* AppDelegate.swift in Sources */,
+				7E1AAB502199F5EF00F9DD03 /* AddFoodViewController.swift in Sources */,
+				7EFB0335218CA72C00D54DD9 /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		7E9610732188BA9A004D5FD9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E9610742188BA9A004D5FD9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		7E0814BC219EB84B00468CBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E0814B0219EB84B00468CBD /* AddFoodIntentUI */;
+			targetProxy = 7E0814BB219EB84B00468CBD /* PBXContainerItemProxy */;
 		};
-		7E9610782188BA9D004D5FD9 /* LaunchScreen.storyboard */ = {
+		7E0814BF219EB84B00468CBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E0814A7219EB84B00468CBD /* AddFoodIntent */;
+			targetProxy = 7E0814BE219EB84B00468CBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E0814B7219EB84B00468CBD /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7E9610792188BA9D004D5FD9 /* Base */,
+				7E0814B8219EB84B00468CBD /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7E0814C2219EB84B00468CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AddFoodIntentUI/AddFoodIntentUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXJA25N2U9;
+				INFOPLIST_FILE = AddFoodIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apollo-INC.superMom.AddFoodIntentUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7E0814C3219EB84B00468CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AddFoodIntentUI/AddFoodIntentUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXJA25N2U9;
+				INFOPLIST_FILE = AddFoodIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apollo-INC.superMom.AddFoodIntentUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7E0814C5219EB84B00468CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A25F430F706297402C818D15 /* Pods-BEABoxer-AddFoodIntent.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AddFoodIntent/AddFoodIntent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXJA25N2U9;
+				INFOPLIST_FILE = AddFoodIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apollo-INC.superMom.AddFoodIntent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7E0814C6219EB84B00468CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3105EF097CABD4E4D62E59D /* Pods-BEABoxer-AddFoodIntent.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AddFoodIntent/AddFoodIntent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXJA25N2U9;
+				INFOPLIST_FILE = AddFoodIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apollo-INC.superMom.AddFoodIntent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		7E96107C2188BA9D004D5FD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -280,41 +836,67 @@
 		};
 		7E96107F2188BA9D004D5FD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54F66298B331825A64B443F /* Pods-BEABoxer.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BEABoxer/BEABoxer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXJA25N2U9;
 				INFOPLIST_FILE = BEABoxer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "apollo-INC.BEABoxer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apollo-INC.superMom";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7E9610802188BA9D004D5FD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121183AD3353979B27966887 /* Pods-BEABoxer.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BEABoxer/BEABoxer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXJA25N2U9;
 				INFOPLIST_FILE = BEABoxer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "apollo-INC.BEABoxer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apollo-INC.superMom";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7E0814C1219EB84B00468CBD /* Build configuration list for PBXNativeTarget "AddFoodIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0814C2219EB84B00468CBD /* Debug */,
+				7E0814C3219EB84B00468CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E0814C4219EB84B00468CBD /* Build configuration list for PBXNativeTarget "AddFoodIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0814C5219EB84B00468CBD /* Debug */,
+				7E0814C6219EB84B00468CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7E9610672188BA9A004D5FD9 /* Build configuration list for PBXProject "BEABoxer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
